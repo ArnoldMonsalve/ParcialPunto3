@@ -1,0 +1,146 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": ["hola", "que tal estas", "cuantos años tienes"],
+        "responses": ["Hola!", "Bien gracias!", "3 dias de mi creacion"]
+      },
+      {
+        "tag": "nombre",
+        "patterns": ["como es tu nombre", "quien te creo"],
+        "responses": ["Me llamo CHATBOT.PY", "Me creo: Arnold Monsalve"]
+      },
+      {
+        "tag": "motos",
+        "patterns": [
+          "Cuales son las marcas mas populares de motos?",
+          "Que tipos de motos existen?",
+          "Puedes recomendarme una moto deportiva?",
+          "Cual es la mejor marca de motocicletas?",
+          "Explicame sobre los cilindrajes en las motos."
+        ],
+        "responses": [
+          "Algunas marcas populares de motos son Honda, Yamaha y Suzuki.",
+          "Existen varios tipos de motos, como motocicletas deportivas, cruceros, scooters y mas.",
+          "Claro, puedo recomendarte una moto deportiva. ¿Cual es tu presupuesto?",
+          "La mejor marca de motocicletas puede variar segun tus preferencias y necesidades. Algunas opciones populares incluyen Honda y Kawasaki.",
+          "Los cilindrajes en las motos se refieren a la capacidad del motor. Cuanto mayor sea el cilindraje, mas potente suele ser la moto."
+        ]
+      },
+      {
+        "tag": "modelos_motos",
+        "patterns": [
+          "Cual es el modelo mas reciente de Honda?",
+          "Que modelo de Yamaha es adecuado para principiantes?"
+        ],
+        "responses": [
+          "El modelo mas reciente de Honda puede variar segun la region y el ano. Te recomendaria verificar el sitio web de Honda para obtener informacion actualizada.",
+          "Para principiantes, el modelo Yamaha YZF-R3 es una excelente opcion."
+        ]
+      },
+      {
+        "tag": "mantenimiento_motos",
+        "patterns": [
+          "Como debo realizar el mantenimiento de mi moto?",
+          "Con que frecuencia debo cambiar el aceite de mi motocicleta?"
+        ],
+        "responses": [
+          "El mantenimiento de tu moto incluye cambios de aceite regulares, ajuste de la cadena, revision de frenos y mas. Es importante seguir el manual del propietario y realizar un mantenimiento adecuado.",
+          "La frecuencia de cambio de aceite puede variar segun la moto y el tipo de aceite que uses. Consulta el manual del propietario para obtener pautas especificas."
+        ]
+      },
+      {
+        "tag": "compra_motos",
+        "patterns": [
+          "Donde puedo comprar una moto nueva?",
+          "Que debo tener en cuenta al comprar una moto usada?",
+          "Cual es el proceso para financiar una motocicleta?"
+        ],
+        "responses": [
+          "Puedes comprar una moto nueva en concesionarios de motocicletas locales o a traves de sitios web de venta de vehiculos.",
+          "Al comprar una moto usada, es importante verificar su estado, historial de mantenimiento y documentos legales. Tambien considera realizar una inspeccion mecanica.",
+          "El proceso para financiar una motocicleta generalmente implica solicitar un prestamo a un banco o una institucion financiera. Debes proporcionar informacion financiera y cumplir con los requisitos del prestamista."
+        ]
+      },
+      {
+        "tag": "seguridad_motos",
+        "patterns": [
+          "Como puedo mantenerme seguro mientras conduzco una moto?",
+          "Que equipo de seguridad debo usar al montar en moto?",
+          "Que debo hacer en caso de un accidente en moto?"
+        ],
+        "responses": [
+          "Para mantenerte seguro en una moto, usa casco, guantes, chaqueta con protecciones, pantalones resistentes a la abrasion y botas de moto.",
+          "El equipo de seguridad incluye casco, guantes, chaqueta con protecciones, pantalones resistentes a la abrasion y botas de moto.",
+          "En caso de un accidente en moto, asegurate de estar a salvo, llama a la ayuda de emergencia y sigue los procedimientos legales y de seguro correspondientes."
+        ]
+      },
+      {
+        "tag": "accesorios_motos",
+        "patterns": [
+          "Que accesorios puedo agregar a mi moto?",
+          "Cual es la funcion de un top case en una motocicleta?",
+          "Como instalar un sistema de navegacion en moto?"
+        ],
+        "responses": [
+          "Puedes agregar accesorios como baul, punos calefactables, pantallas de parabrisas, y mas para mejorar tu experiencia de conduccion.",
+          "Un top case es un accesorio que proporciona espacio de almacenamiento adicional en la parte trasera de la moto. Es util para llevar objetos personales o equipaje.",
+          "La instalacion de un sistema de navegacion en moto generalmente implica montar un soporte y conectar el dispositivo de navegacion a la bateria de la moto."
+        ]
+      },
+      {
+        "tag": "seguros_motos",
+        "patterns": [
+          "Cual es la importancia de tener un seguro de moto?",
+          "Como puedo elegir el seguro de moto adecuado?",
+          "Que cubre un seguro de moto?"
+        ],
+        "responses": [
+          "Un seguro de moto es importante para protegerte en caso de accidentes o danos a tu moto. Puede cubrir gastos medicos y reparaciones.",
+          "Para elegir el seguro de moto adecuado, considera tus necesidades, presupuesto y la cobertura deseada. Compara diferentes opciones de seguro y elige el que mejor se adapte a ti.",
+          "Un seguro de moto puede cubrir danos a la moto, responsabilidad civil, gastos medicos y mas. La cobertura exacta puede variar segun la poliza."
+        ]
+      },
+      {
+        "tag": "personalizacion_motos",
+        "patterns": [
+          "Como puedo personalizar mi moto?",
+          "Donde puedo comprar piezas de repuesto para mi moto?",
+          "Que mejoras puedo hacer en mi motocicleta?"
+        ],
+        "responses": [
+          "Puedes personalizar tu moto con piezas de repuesto y accesorios como escapes personalizados, asientos de cuero, y pintura personalizada.",
+          "Puedes comprar piezas de repuesto para tu moto en tiendas de repuestos de motocicletas o en línea en sitios web especializados.",
+          "Las mejoras en una motocicleta pueden incluir actualizaciones de rendimiento, ajustes de suspensión y cambios en la estética. Consulta a un mecánico de motocicletas para obtener recomendaciones específicas."
+        ]
+      },
+      {
+        "tag": "eventos_motos",
+        "patterns": [
+          "Donde puedo encontrar eventos de motocicletas cerca de mi?",
+          "Cuando es el próximo rally de motocicletas en mi área?"
+        ],
+        "responses": [
+          "Puedes encontrar eventos de motocicletas locales en sitios web de motociclistas y grupos de redes sociales. También consulta con concesionarios de motocicletas y clubes de motociclistas en tu área.",
+          "La fecha del próximo rally de motocicletas puede variar según la ubicación y el calendario de eventos locales. Consulta en línea o con organizadores locales para obtener información actualizada."
+        ]
+      },
+      {
+        "tag": "conducir_motos_seguro",
+        "patterns": [
+          "Como mejorar mis habilidades de conduccion en moto?",
+          "Que consejos tienes para conducir una moto de manera segura?"
+        ],
+        "responses": [
+          "Puedes mejorar tus habilidades de conducción en moto tomando clases de conducción y practicando en áreas seguras. Recuerda siempre obedecer las leyes de tráfico y estar atento al entorno.",
+          "Conducir una moto de manera segura implica mantener una velocidad adecuada, mantener distancia con otros vehículos, usar el equipo de protección y estar alerta en todo momento."
+        ]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["adios", "hasta luego", "chao"],
+        "responses": ["Hasta luego!", "Adios! Si tienes mas preguntas en el futuro, no dudes en volver."]
+      }
+    ]
+  }
+  
